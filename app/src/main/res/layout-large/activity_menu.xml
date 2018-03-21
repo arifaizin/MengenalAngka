@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_hewansmall"
+    tools:context="id.co.imastudio.mengenalangka.MenuActivity">
+
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:visibility="gone"></GridView>
+
+    <ImageView
+        android:id="@+id/btn_menu_back"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/gridView"
+        android:layout_margin="10dp"
+        android:layout_toEndOf="@+id/gridView"
+        android:layout_toRightOf="@+id/gridView"
+        app:srcCompat="@drawable/btn_back" />
+
+    <ImageView
+        android:id="@+id/btn_menu_next"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/menu_btn_play" />
+
+    <ImageView
+        android:id="@+id/btnBurungUnta"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/btnBeo" />
+
+    <ImageView
+        android:id="@+id/btnBeo"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/btn_menu_next"
+        android:layout_marginEnd="139dp"
+        android:layout_marginRight="139dp"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@+id/btnUnta"
+        android:layout_toStartOf="@+id/btnUnta" />
+
+    <ImageView
+        android:id="@+id/btnGajah"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_below="@+id/btnSapi"
+        android:layout_toLeftOf="@+id/btn_menu_next"
+        android:layout_toStartOf="@+id/btn_menu_next" />
+
+    <ImageView
+        android:id="@+id/btnJerapah"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnUnta" />
+
+    <ImageView
+        android:id="@+id/btnKera"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignLeft="@+id/btnBeo"
+        android:layout_alignStart="@+id/btnBeo"
+        android:layout_below="@+id/btnUnta" />
+
+    <ImageView
+        android:id="@+id/btnMacan"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignTop="@+id/btnBeo"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="38dp"
+        android:layout_toLeftOf="@+id/btnBeo"
+        android:layout_toStartOf="@+id/btnBeo" />
+
+    <ImageView
+        android:id="@+id/btnRusa"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignTop="@+id/btnBurungUnta"
+        android:layout_toEndOf="@+id/btnBurungUnta"
+        android:layout_toRightOf="@+id/btnBurungUnta" />
+
+    <ImageView
+        android:id="@+id/btnSapi"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_above="@+id/btnKera"
+        android:layout_alignEnd="@+id/btnGajah"
+        android:layout_alignRight="@+id/btnGajah" />
+
+    <ImageView
+        android:id="@+id/btnZebra"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignTop="@+id/btnJerapah"
+        android:layout_toEndOf="@+id/btnJerapah"
+        android:layout_toRightOf="@+id/btnJerapah" />
+
+    <ImageView
+        android:id="@+id/btnUnta"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignEnd="@+id/btn_menu_next"
+        android:layout_alignRight="@+id/btn_menu_next"
+        android:layout_alignTop="@+id/btnBeo"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp" />
+</RelativeLayout>
