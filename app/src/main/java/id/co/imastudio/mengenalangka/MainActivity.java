@@ -44,6 +44,10 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
+
+        MediaPlayer player = MediaPlayer.create(MainActivity.this, R.raw.angkaayo);
+        player.start();
+
         initView();
 
         YoYo.with(Techniques.Bounce)

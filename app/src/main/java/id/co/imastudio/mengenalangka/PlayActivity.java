@@ -38,16 +38,17 @@ public class PlayActivity extends AppCompatActivity {
     };
 
 
-    private int[] suarabilal = {
-            R.raw.suarabilal01,
-            R.raw.suarabilal02,
-            R.raw.suarabilal03,
-            R.raw.suarabilal04,
-            R.raw.suarabilal05,
-            R.raw.suarabilal06,
-            R.raw.suarabilal07,
-            R.raw.suarabilal08,
-            R.raw.suarabilal09
+    private int[] angka = {
+            R.raw.angka01,
+            R.raw.angka02,
+            R.raw.angka03,
+            R.raw.angka04,
+            R.raw.angka05,
+            R.raw.angka06,
+            R.raw.angka07,
+            R.raw.angka08,
+            R.raw.angka09,
+            R.raw.angka10
     };
 
     //    private int[] textAdab = {
@@ -97,7 +98,7 @@ public class PlayActivity extends AppCompatActivity {
 
         initView();
 
-        pageradapter = new ViewPagerAdapter(this, chapter1, suarabilal);
+        pageradapter = new ViewPagerAdapter(this, chapter1, angka);
 
         viewPager.setAdapter(pageradapter);
         viewPager.setPageTransformer(true, new FlipHorizontalTransformer());
